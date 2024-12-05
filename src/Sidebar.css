@@ -1,0 +1,45 @@
+.sidebar {
+    width: 300px;
+    height: 100vh;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  .sidebar-header {
+    padding: 15px;
+    background-color: #128c7e;
+    color: white;
+    text-align: center;
+  }
+  
+  .sidebar-chat-list {
+    margin-top: 20px;
+  }
+  
+  .sidebar-chat-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .sidebar-chat-item:hover {
+    background-color: #e5e5e5;
+  }
+  
+  .chat-info h4 {
+    margin: 0;
+  }
+  
+  .chat-info p {
+    margin: 0;
+    color: gray;
+  }
+  
+  .chat-time {
+    font-size: 12px;
+    color: gray;
+  }
+  
